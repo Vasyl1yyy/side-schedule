@@ -1,6 +1,14 @@
+import { ENV } from "./env";
 import knex from "knex";
-const knexConfig = require("../../knexfile.js");
 
-const db = knex(knexConfig.development);
+const db = knex({
+  client: "mysql2",
+  connection: {
+    host: ENV.DB_HOST,
+    user: ENV.DB_USER,
+    password: ENV.DB_PASSWORD,
+    database: ENV.DB_NAME,
+  },
+});
 
 export default db;
