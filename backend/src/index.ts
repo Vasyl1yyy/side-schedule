@@ -9,4 +9,4 @@ app.use(express.json());
 
 app.use("/api", router);
 
-app.listen(18012, () => console.log(`🚀 Server running on port 18012`));
+app.listen(5000, () => console.log(`🚀 Server running on port 5000`));
