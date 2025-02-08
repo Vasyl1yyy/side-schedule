@@ -18,8 +18,8 @@
     "sqlite3": "^5.1.7"
   },
   "scripts": {
-    "dev": "ts-node src/server.ts",
+    "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/index.js"
   }
 }
