@@ -1,17 +1,11 @@
 {
   "sqltools.connections": [
     {
-      "mysqlOptions": {
-        "authProtocol": "default",
-        "enableSsl": "Disabled"
-      },
       "previewLimit": 50,
       "server": "localhost",
-      "port": 3306,
-      "driver": "MySQL",
-      "name": "money",
-      "database": "money",
-      "username": "root"
+      "driver": "PostgreSQL",
+      "connectString": "postgresql://postgres.wsyidompnyhdperttrmb:LqLI6RCX2FmRtSPK@aws-0-eu-central-1.pooler.supabase.com:6543/postgres",
+      "name": "income"
     }
   ]
 }

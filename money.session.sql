@@ -1,1 +1,1 @@
-SELECT * FROM income;
+INSERT INTO income (value, summa, description) values ("-", 100, 'Пополнение счета');
